@@ -9,16 +9,14 @@
     margin: 0px;
     overflow-x: none;
     overflow-y: auto;
-    background: #16222A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-   
+    background: #16222A;  
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A); 
+    background: linear-gradient(to right, #3A6073, #16222A); 
  }
 
  p {
     text-align: center;
     font-size: 20px;
-
   }
   
   .fullCard {
@@ -29,13 +27,15 @@
     padding: 4px;
     opacity: 0.7;
     margin-bottom: 5%;
-    margin-: 5%;
+    margin: 5%;
   }
+
 .fullCard img {
     opacity: 1;
     width: 30%;
     border-radius: 50%;
 }
+
   .cardContent {
     padding: 25px;
     font-family: Aldrich;
@@ -65,13 +65,11 @@
     padding: 4px;
     margin: 0px 0px 0px 0px;
     background-color: black;
-
   }
 
   h2{
     color: white;
     margin-bottom: 45px;
- 
   }
   
  .fab{
@@ -97,7 +95,7 @@
  .title{
    float: left;
    visibility: visible;
-   width: 40%;
+   width: 20%;
  }
 
  .content{
@@ -133,7 +131,11 @@
   color: black;
  }
 
- .stuff{
+ li {
+   list-style-type: none;
+ }
+
+ .story{
   font-size: 18px;
   letter-spacing: 1px;
   line-height: 30px;
