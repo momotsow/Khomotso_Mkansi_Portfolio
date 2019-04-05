@@ -13,9 +13,9 @@
     background: -webkit-linear-gradient(to right, #3A6073, #16222A); 
     background: linear-gradient(to right, #3A6073, #16222A); 
  }
- #collapse navbar-collapse{
+ /* #collapse navbar-collapse{
    position: fixed;
- }
+ } */
 
  p {
     text-align: justify;
@@ -94,6 +94,22 @@
   vertical-align: middle;
   width: 85%;
   border-style: none;
+}
+
+.image
+{
+    background:url(images/back.png);
+    height:100px;
+    width:100px;
+    display: block;
+    float:left;
+}
+.image  a {
+  display: none;
+}
+
+.image a:hover {
+  display: block;
 }
  .title1{
   visibility: visible;
