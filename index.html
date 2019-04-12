@@ -1,291 +1,254 @@
-<!DOCTYPE <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>MOTSOW</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="style.css">
-   
-</head>
-<body>
-  <header class="navbar navbar-expand-lg navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<!DOCTYPE html>
+<html lang="en">
 
-    <div class="collapse navbar-collapse" id="navbarToggler">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home </a>
-        </li>
-        <li class="nav-item" active>
-          <a class="nav-link" href="#aboutme">About Me</a>
-        </li>
-        <li class="nav-item" active>
-          <a class="nav-link" href="#work">My Work</a>
-        </li>
-        <li class="nav-item" active>
-            <a class="nav-link" href="#foot">Contact Me</a>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Portfolio Website</title>
+
+  <!-- Font Awesome Icons -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Theme CSS - Includes Bootstrap -->
+  <link href="css/creative.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Khomotso Mkansi</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
-      </ul>
-      
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#more">More Info</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Masthead -->
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-10 align-self-end">
+          <h1 class="text-uppercase text-white font-weight-bold">KHOMOTSO PRUDENCE MKANSI</h1>
+          <hr class="divider my-4">
+        </div>
+        <div class="col-lg-8 align-self-baseline">
+          <p class="text-white-75 font-weight-light mb-5">Junior Web Developer</p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">More About Me</a>
+        </div>
+      </div>
     </div>
   </header>
 
-    <center><div class="fullCard" id="thumbnail">
-            <img src="images/me1.jpg">
-            <div class="cardContent">
-              <div class="cardText">
-                <h1>Avuxeni</h1>
-                <hr>
-                <p>Khomotso Prudence Mkansi here,<br>I solve the world's problems using &lt/&gt in &ltstyle&gt</p>
+  <!-- About Section -->
+  <section class="page-section bg-primary" id="about">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-white mt-0">Khomotso Prudence Mkansi</h2>
+          <hr class="divider light my-4">
+          <p class="text-white-50 mb-4">Khomotso was born a problem solver who believes in life-long learning. She is naturally self-motivated and strives for excellence in all she does.
+             <br> She speaks fluent JavaScript and NodeJS, she hears MongoDB; she is fascinated by Bash scripting and during play time she wears HTML5 and CSS3 in the playground. </p>
+            <a href="./img/portfolio/fullsize/Khomotso_Mkansi_CV.pdf" download="Khomotso_Mkansi_CV" target="_blank">
+              <button type="button" class="btn btn-light btn-xl js-scroll-trigger">Downlowd My CV here</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="page-section" id="services">
+    <div class="container">
+      <h2 class="text-center mt-0">Technical Skills</h2>
+      <hr class="divider my-4">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Javascript<br>NodeJS<br>MongoDB</h3>
+            <!-- <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p> -->
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+            <h3 class="h4 mb-2">HTML5<br>CSS3<br>PUG<br>Bootstrap</h3>
+            <!-- <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p> -->
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Linux<br>Bash scripting<br>Git</h3>
+            <!-- <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p> -->
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-heart text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Human Centered Design<br>Google Analytics<br>Trello<br>Slack</h3>
+            <!-- <p class="text-muted mb-0">Is it really open source if it's not made with love?</p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+        
+          <div class="col-lg-4 col-sm-6">
+              <div class="portfolio-box" href="img/portfolio/fullsize/tribute page1.png">
+                <img class="img-fluid" src="img/portfolio/fullsize/tribute page1.png" alt="">
+                <div class="portfolio-box-caption">
+                    <div class="project-name">
+                        Tribute Page
+                      </div>
+                  <div class="project-category text-white-50">
+                    <h5>BRIEF: </h5>
+                    <p>For my first coding project, I was given a brief by Umuzi of creating a tribute page on a person we look up to, and I chose Jack Ma for his well known resilience.</p>
+                    <ul>TECHNOLOGIES USED:</ul>
+                    <li>HTML for layout</li>
+                    <li>CSS for styling</li>
+    
+                    <br><a href="https://momotsow.github.io/motso/index.html">check this link to see for yourself</a>
+                  </div>
+                  
+                </div>
               </div>
             </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="portfolio-box" href="img/portfolio/fullsize/socketio1.PNG">
+            <img class="img-fluid" src="img/portfolio/fullsize/socketio1.PNG" alt="">
+            <div class="portfolio-box-caption">
+                <div class="project-name">
+                    Socket IO
+                  </div>
+              <div class="project-category text-white-50">
+                <h6>BRIEF:</h6> 
+                <p>I was tasked by Umuzi to create a real time chat app that shows messages texted in real time and shows online users <br></p>
 
-            <div class="but">
-              <a class="btn" href="#work" >
-                <button type="button" class="btn btn-outline-primary">View My Work</button>
-                
-              </a>
-              <a class="btn" href="#aboutme">
-                <button type="button" class="btn btn-outline-primary">About Me</button>
-                  
-                </a>
+                <ul>TECHNOLOGIES USED:</ul>
+                <li>Socket IO for the real time functionality</li>
+                <li>Mongodb for database</li>
+                <li>Express.js framework for node js</li>
+                <li>CSS3 for styling</li>
 
-            </div>
-     </div></center>
-
-     <div id="aboutme">
-     <div class="box">
-      
-      <div class="title">
-        <h3> ABOUT ME</h3>
-        <img src="images/like.png" alt="quote">
-        </div>
-        <div class="content">
-          <div>
-            <center><h4> Khomotso Prudence Mkansi </h4></center>
-            <p class="story"> Khomotso was born a problem solver who believes in life-long learning. 
-              She is naturally self-motivated and strives for excellence in all she does.<br>She speaks fluent JavaScript and NodeJS, she hears MongoDB; 
-              she is fascinated by Bash scripting and during play time she wears HTML5 and CSS3 in the playground.
-                <br><br>
-            
-                <a href="./images/Khomotso_Mkansi_CV.pdf" download="Khomotsop_Mkansi_CV" target="_blank">
-                  <button type="button" class="btn btn-outline-primary">Downlowd My CV here</button></a>
-               </p> 
-          </div>
-          </div>
-
-    </div>
-
-    <div class="box">
-      
-      <div class="title">
-        <br><br><br><h3><i class="fas fa-cogs" alt="skillset icon" width="40px"></i> TECHNICAL SKILLSET</h3>
-         
-        </div>
-        <center><div class="content">
-          <div>
-            
-            <ul >
-              <li>
-                HTML
-              </li>
-              <li>
-               CSS
-              </li>
-              <li >
-                Pug    
-              </li>
-              <li >
-                JAVASCRIPT     
-              </li>
-              <li >
-                Nodejs     
-              </li>
-              <li >
-                MongoDB     
-              </li>
-              <li >
-                Human Centered Design     
-              </li>
-              <li >
-                Analytics     
-              </li>
-              <li >
-                Linux     
-              </li>
-              <li >
-                Bootstrap     
-              </li>
+                <br><a href="https://github.com/momotsow/socketio">Check it out here to see for yourself</a>
+              </div>
               
-            </ul>
-
-          </div></center>
-    </div>
-  </div>
-
-  <div id="work">
-    <h1>These Are some of the projects I have done or have taken part in ...</h1>
-  <div class="box">
-    
-    <div class="title">
-                            
-      <img src="images/tribute page1.png" alt="picture of the tribute page">
-    </div>
-    <div class="content">
-    <div>
-      <center><h4> Tribute Page </h4></center>
-      <br> <h5>BRIEF</h5>
-      <p class="story"> 
-
-          <p> For our first coding project, we were given a brief by Umuzi of creating a tribute page on a person we look up to, and I chose Jack Ma for his well known resilience.
-            </p>
-          <h5>TECHNOLOGIES USED</h5>
-          HTML for layout<br>
-          CSS3 for styling <br>
-          JavaScript for movement<br>    
-      <br><br><a href="https://momotsow.github.io/motso/index.html">check this link to see for yourself</a></p> 
-    </div>
-    </div>               
-  </div>
-      
-  <div class="box">
-    <div class="title">                     
-      <img src="images/TDD.jpg" alt="picture of TDD">
-    </div>
-      <div class="content">
-    <div>
-      <center><h4> Test Driven Development </h4></center>
-      <br><h5>BRIEF</h5>
-      <p class="story"> 
-        
-         <p>We were given a brie  by Umuzi to create a test development program to test functions whether there is a bug or error</p>
-        <h5>TECHNOLOGIES USED</h5>
-        Javascript <br>
-        Jasmine<br>
-        TDD           
-      </p>                          
-    </div>
-    </div>
-                     
-    </div>
-  
-  <div class="box">
-      
-  <div class="title">
-                            
-    <img src="images/landing-page.png" alt="picture of Ecollab landing-page">
-  </div>
-    <div class="content">
-  <div>
-    <center><h4> Ecollab </h4></center>
-    <br><h5>BRIEF</h5>
-    <p class="story"> 
-      
-    <p>We were given a brief by American Express in a GirlCode Hackathon to make an app or website that makes Collaboration better. The collaboration platforms should do more than help employees talk about their work; they should create new ways for employees to do their work.</p>
-        
-    <br><h5>WHAT WAS OUR PROJECT</h5>
-      <p>We created a web App called Ecollab which is basically an online stand-up to help people know and not forget co-worker's difficulties and also be able to help the ones that need help.</p> 
-      <br><h5>TECHNOLOGIES USED</h5>
-      Nodejs <br>
-      Mongodb for database <br>
-      Express.js framework for node js <br>
-      CSS3 for styling <br>
-      Pug for layout
-                
-    </p>                          
-  </div>
-  </div>
-                   
-  </div>
-  
-  
-  
-  <div class="box">
-      
-    <div class="title">
-                              
-      <img src="images/socketio.PNG" alt="picture of a chat app">
-    </div>
-      <div class="content">
-    <div>
-      <center><h4> Chat App </h4></center>
-      <br><h5>BRIEF</h5>
-      <p class="story">  
-        
-          <p>We were tasked by Umuzi with creating a real time chat app that shows messages texted in real time and shows online users </p>
-          <h5>TECHNOLOGIES USED</h5>
-          Socket IO for the real time functionality<br>
-          Mongodb for database<br>
-          Express.js framework for node js<br>
-          CSS3 for styling<br>
-          
-
-       <a href="https://github.com/momotsow/socketio">Check it out here to see for yourself</a>
-       </p>
-    </div>
-    </div>
-                     
-    </div>
-  
-    <div class="box">
-      
-      <div class="title">
-                                
-        <img src="images/memorygame.PNG" alt="picture of a memory game">
-        
-      </div>
-      <div class="content">
-      <div>
-        <center><h4> Memory Game </h4></center>
-        <br><h5>BRIEF</h5>
-        <p class="story">  
-          
-          <p>We were tasked with creating a memory game that is able to shuffle everytime a new game is played</p>
-          <h5>TECHNOLOGIES USED</h5>
-          CSS grid <br>
-          JavaScript to be able to get the cards to flip and also shuffle in each and every game.<br>
-        
-          <a href="https://momotsow.github.io/memorygame/">Let's Play</a>
-         </p>
-      </div>
-      </div>               
-      </div>
-      
-      </div>
-  
-
-
-    
-      <h1>More Things About Me ...</h1>
-    <div class="box">
-        
-        <div class="row">
-          <div class="col-sm-4">
-              <figure class="image"><img class="is-skill-icon" src="images/web.png"></figure>
-              <h1 class="title1">Full-Stack Developer</h1>
-              <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser. I don't only code for the machines but my code speaks to humans too.</p>
-              <h5>Languages I speak:</h5>
-              <p>HTML5,Pug,CSS3,Javascript,Nodejs and MongoDB</p>
-              <h5>Dev Tools:</h5>
-              <ul>
-                <li>Visual studio code</li>
-                <li>Bootstrap</li>
-                <li>Codepen</li>
-                <li>Github</li>
-                <li>Gitbash</li>
-                <li>Terminal</li>
-                <li>Linux and Windows</li>
-              </ul>
+            </div>
           </div>
-          <div class="col-sm-4">
-              <figure class="image"><img class="is-skill-icon" src="images/design (2).png"></figure>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="portfolio-box" href="img/portfolio/fullsize/memorygame.PNG" width="100%">
+            <img class="img-fluid" src="img/portfolio/fullsize/memorygame.PNG" alt="" width="100%">
+            <div class="portfolio-box-caption p-3">
+                <div class="project-name">
+                    Memory Game
+                  </div>
+              <div class="project-category text-white-50">
+                <h6>BRIEF:</h6> 
+                <p>I was tasked by Umuzi to create a memory game that is able to shuffle everytime a new game is played.<br></p>
+                <ul>TECHNOLOGIES USED:</ul>
+                <li>CSS grid</li>
+                <li>JavaScript to be able to get the cards to flip and also shuffle in each and every game.<br></li>
+              
+                <br><a href="https://momotsow.github.io/memorygame/">Let's play</a>
+
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-sm-6">
+            <div class="portfolio-box" href="img/portfolio/fullsize/landing-page1.png">
+              <img class="img-fluid" src="img/portfolio/fullsize/landing-page1.png" alt="">
+              <div class="portfolio-box-caption">
+                  <div class="project-name">
+                      Ecollab
+                    </div>
+                <div class="project-category text-white-50">
+                  <h6>BRIEF:</h6>
+                  <p>To make an app or website that makes Collaboration better.</p>
+                  
+                  <h6>WHAT WAS OUR PROJECT:</h6>
+                  <p>We decided to create a web App called Ecollab which is basically an online stand-up from the Agile methodology.</p> 
+                  <ul>TECHNOLOGIES USED:</ul>
+                  <li>Nodejs</li>
+                  <li>Mongodb for database</li>
+                  <li>Express.js framework for node js</li>
+                  <li>CSS3 for styling</li>
+                  <li>Pug for layout</li>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- More about me -->
+  <section class="page-section" id="more">
+      <div class="container">
+        <h2 class="text-center mt-0">More Things About Me</h2>
+        <hr class="divider my-4">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="mt-5">
+                <img class="is-skill-icon text-primary mb-4" src="img/portfolio/fullsize/web.png">
+                <h1 class="title1">Full-Stack Developer</h1>
+                <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser. I don't only code for the machines but my code speaks to humans too.</p>
+                <h5>Languages I speak:</h5>
+                <p>HTML5,Pug,CSS3,Javascript,Nodejs and MongoDB</p>
+                <h5>Dev Tools:</h5>
+                <ul>
+                  <li>Visual studio code</li>
+                  <li>Bootstrap</li>
+                  <li>Codepen</li>
+                  <li>Github</li>
+                  <li>Gitbash</li>
+                  <li>Terminal</li>
+                  <li>Linux and Windows</li>
+                </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="mt-5">
+              <img class="is-skill-icon text-primary mb-4" src="img/portfolio/fullsize/design (2).png">
               <h1 class="title1">Designer - UX & UI</h1>
               <p>I value simple content structure, clean design patterns, and thoughtful interactions. I make sure that my designs communicate with the users too.</p>
               <h5>Things I enjoy designing:</h5>
@@ -297,9 +260,11 @@
                 <li>Illustator</li>
                 <li>Photoshop</li>
               </ul>
+            </div>
           </div>
-          <div class="col-sm-4">
-              <figure class="image"><img class="<i class="fas fa-book-open" src="images/mentor.png"></i>"</figure>
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="mt-5">
+              <img class="is-skill-icon text-primary mb-4" src="img/portfolio/fullsize/mentor.png"></i>
               <h1 class="title1">Mentor Programme</h1>
               <p>I love helping young people reach their full potential and not go through 
                 the struggles I went through. Hence I founded UP'rising Future Leaders.</p>
@@ -314,39 +279,61 @@
                 <li>4 Mentor sessions in a year</li>
                 <li>100+ learners help to Varsity</li>
               </ul>
+            </div>
           </div>
         </div>
+      </div>
+    </section>
+
+  <!-- Contact Section -->
+  <section class="page-section" id="contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="mt-0">Let's Work Together</h2>
+          <hr class="divider my-4">
+          
         </div>
       </div>
+      <div class="row">
+        <div class="col-lg-3 ml-auto text-center">
+          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+          <div> 071 931 1416</div>
+        </div>
+        <div class="col-lg-3 mr-auto text-center">
+          <i class="fas fa-envelope fa-3x mb-3 text-muted" target="_blank"></i>
+          <a class="d-block" href="khomotso.mkansi@umuzi.org" target="_blank">khomotso.mkansi@umuzi.org</a>
+        </div>  
+        <div class="col-lg-3 ml-auto text-center">
+          <a href="https://www.linkedin.com/in/khomotso-prudence-mkansi-aa7794b7/" class="linkedin"><i class="fab fa-linkedin fa-3x mb-3 text-muted" target="_blank"></i></a>
+          <a class="d-block" href="https://www.linkedin.com/in/khomotso-prudence-mkansi-aa7794b7/" target="_blank">LinkedIn</a>
+      </div>
+      <div class="col-lg-3 mr-auto text-center">
+          <a href="https://github.com/momotsow" class="github"><i class="fab fa-github fa-3x mb-3 text-muted" target="_blank"></i></a>
+          <a class="d-block" href="https://github.com/momotsow" target="_blank">Github</a>
+        </div>  
+      </div>
+    </div>
+  </section>
 
+  <!-- Footer -->
+  <footer class="bg-light py-5">
+    <div class="container">
+      <div class="small text-center text-muted">Copyright &copy; 2019 Khomotso Mkansi</div>
+    </div>
+  </footer>
 
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-     <footer id="foot">
-      <center><div>
-         <h2><i class="fab fa-teamspeak"> LET'S WORK TOGETHER</i></h2>
-         
-     
-                 
-         <i class="fas fa-phone">  071 931 1416</i><br><br> 
- 
-        
-         <i class="far fa-envelope">  khomotso.mkansi@umuzi.org</i><br><br><br> 
-  
-       
-         <a href="https://www.linkedin.com/in/khomotso-prudence-mkansi-aa7794b7/" class="linkedin"><i class="fab fa-linkedin" style="font-size:36px"></i></a>
-         <a href="https://github.com/momotsow" class="github"><i class="fab fa-github" style="font-size:36px"></i></a>
-             
- 
-      </div></center>
- 
-    </footer>      
-    
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.min.js"></script>
 
 </body>
+
 </html>
